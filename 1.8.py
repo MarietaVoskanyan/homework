@@ -1,5 +1,5 @@
 def sqrt(n):
-        """ Sqrt counts the cubic of a number"""
+    """ Sqrt counts the cubic of a number """
 	root = 1
 	while not guess_enough(root, n):
 		root = improve(root, n)
@@ -18,4 +18,6 @@ def abs(n):
 def improve(root, target):
 	return ((target / (root ** 2)) + (2 * root)) / 3
 	
-print(sqrt(64))
+
+n = int(input("Insert the number: "))
+print(f"The cubic is: {sqrt(n)}")
