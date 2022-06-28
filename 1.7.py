@@ -1,4 +1,5 @@
 def pow(base, exp):
+    """Pow finds the degree of the number no matter if degree is positive or negative """
     res = 1 
     count = 0
     if exp > 0:
