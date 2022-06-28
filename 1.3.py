@@ -8,4 +8,7 @@ def sum_of_max_squares(a, b, c):
     elif a < c < b or a < b < c:
         return (c**2 + b**2)
         
-print(sum_of_max_squares(4, 2, 3))
+a = int(input("insert the number1: "))
+b = int(input("insert the number2: "))
+c = int(input("insert the number3: "))
+print(f"The sum is: {sum_of_max_squares(a, b, c)}")
