@@ -1,0 +1,24 @@
+def replace(source, old, new):
+        i = 0 
+        str = ''
+        source1 = []
+        while i < len(source):
+            j = 0
+            str = ''
+            for j in range(len(old)):
+                if i + j < len(source):
+                    str = str + source[i + j]
+            if str == old:
+                source1.append(new) 
+                i += len(old)
+            else:
+                source1.append(source[i])
+                i += 1     
+                
+        return source1    
+            
+        
+source = input("insert the source: ")
+old = input("insert the old string: ") 
+new = input("insert the new string: ")
+print(f"the new source is: {replace(source, old, new)}")
