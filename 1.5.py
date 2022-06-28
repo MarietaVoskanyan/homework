@@ -1,5 +1,5 @@
-def summ(a:float, b:float):
-    """ summ returns the number of integers between a and b"""
+def summ(a, b):
+    """ summ returns the sum of numbers of integers between a and b"""
     c = 0
     d = 0
     while a > c:
@@ -15,5 +15,7 @@ def summ(a:float, b:float):
         sum += (m + k)
         k += 1 
     return sum
-    
-print(summ(5.76, 8.5))
+a = float(input("Insert a: ")) 
+b = float(input("Insert b: ")) 
+
+print(f" The number is: {summ(a, b)}")
