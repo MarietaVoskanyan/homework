@@ -1,4 +1,5 @@
 def summ(a:float, b:float):
+    """Summ returns the number of integers between a and b ignoring which is bigger """
     c = 0
     d = 0
     if a < b:
