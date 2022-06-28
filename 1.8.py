@@ -1,4 +1,5 @@
 def sqrt(n):
+        """ Sqrt counts the cubic of a number"""
 	root = 1
 	while not guess_enough(root, n):
 		root = improve(root, n)
