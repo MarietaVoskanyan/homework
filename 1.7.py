@@ -15,4 +15,7 @@ def pow(base, exp):
             return 1 / res
         else:
             return "The phase is meaningless"
-print(pow(2,-5))
+base = int(input("Insert base: "))
+exp = int(input("Insert exp: "))
+print(f"The degree is: {pow(base, exp)}")
+
