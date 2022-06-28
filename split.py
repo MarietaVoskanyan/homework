@@ -1,5 +1,5 @@
 def split(source, sep, count):
-	'''Split returns the list consisting of the subjects of source '''
+	""" Split returns the list consisting of the subjects of source """
 	lst = []
 	i = 0
 	j = 0
