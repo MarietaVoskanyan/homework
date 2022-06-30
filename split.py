@@ -25,4 +25,3 @@ def split(source, sep):
                         res.append(source[idx:i])
                         idx = i + len_sep
         return res
-'asdfghedrfghmkjl', 'gh'
